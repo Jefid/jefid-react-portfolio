@@ -5,7 +5,7 @@ import Nav from "./components/Nav";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Portfolio from "./components/Portfolio";
+// import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 function App() {
   const [categories] = useState([
@@ -14,37 +14,31 @@ function App() {
       // description:
       //   "Photos of grocery stores, food trucks, and other commercial projects",
     },
-    { name: "Projects", description: "Projects I've developed" },
-    { name: "Contact" },
+    { name: "Portfolio", description: "Portfolio I've developed" },
+  
   ]);
-  const [contactSelected, setContactSelected] = useState(false);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [contactSelected, setContactSelected] = useState(false);
   return (
     <section className="my-5">
-      {/* <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav> */}
-          <main>
-        {!contactSelected ? (
-  <>
-    <Nav
+      <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Nav>
+      <main>
+      {!contactSelected ? (
+  <>
     <About></About>
+    {/* <Portfolio></Portfolio> */}
   </>
 ) : (
     <ContactForm></ContactForm>
   )}
       </main>
-    </section>
+      </section>
   );
 }
 export default App;
