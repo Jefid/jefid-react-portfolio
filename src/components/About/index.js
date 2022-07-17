@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '..\assets\cover\profile.jpg';
+import profilePic from '../assets/cover/profile.jpg';
 import './style.css';
 import { Container } from '@mui/material';
 
