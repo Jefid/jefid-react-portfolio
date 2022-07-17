@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div>
 
-        <h1> get in touch </h1>
+        <h1> HMU </h1>
 
 
       <Container>
@@ -25,7 +25,7 @@ function Contact() {
         </a>{' '}
         {/*  */}
         <a
-          href='https://discordapp.com/users/746823093468790785'
+          href='https://discordapp.com/users/jefid#0311'
           rel='noreferrer'
           target='_blank'
         >
