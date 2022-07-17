@@ -1,45 +1,60 @@
-import React from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
-function Nav(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-    contactSelected,
-    setContactSelected,
-  } = props;
+import React from 'react';
+import './style.css';
+import avatar from '../../assets/icons/circle-avatar.png';
+import { Link } from 'react-router-dom';
+import { Container, SvgIcon, Tooltip } from '@mui/material';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
+function Nav() {
   return (
-    <header className="flex-row px-1">
-      <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
-                }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
+    <div className='side-nav'>
+      <img alt='avatar' src={avatar} />
+      <ul>
+        <li>
+          <Link to='/'>home</Link>
+        </li>
+        <li>
+          <Link to='/about'>about</Link>
+        </li>
+        <li>
+          <Link to='/work'>work</Link>
+        </li>
+        <li>
+          <Link to='/contact'>contact</Link>
+        </li>
+
+        <Container>
+          <a
+            href='https://github.com/wolfskillobyte'
+            rel='noreferrer'
+            target='_blank'
+          >
+            <Tooltip title='GitHub'>
+              <SvgIcon
+                alt='github-icon'
+                fontSize='large'
+                component={GitHubIcon}
+              />
+            </Tooltip>
+          </a>{' '}
+          <a
+            href='https://www.linkedin.com/in/srwolfskill/'
+            rel='noreferrer'
+            target='_blank'
+          >
+            <Tooltip title='LinkedIn'>
+              <SvgIcon
+                alt='linkedin-icon'
+                fontSize='large'
+                component={LinkedInIcon}
+              />
+            </Tooltip>
+          </a>
+        </Container>
+      </ul>
+    </div>
   );
 }
+
 export default Nav;
