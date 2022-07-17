@@ -6,15 +6,14 @@ import { Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
-// import Header from './components/Header';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className='App'>
-      {/* <Header /> */}
-      <Nav />
+      <Header />
       <Routes>
         <Route path='/' element={<About />} />
         <Route path='/resume' element={<Resume />} />
@@ -22,7 +21,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

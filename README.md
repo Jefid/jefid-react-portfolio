@@ -1,6 +1,39 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# JEFID'S REACT PORTFOLIO
+
+
+## About
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It showcases Jefferson Quandt's coding portfolio and proficiencies! There links to contact him through email, Github, Linkedin, and Discord!
+
+## Installation
+
+This project requires Node.js and other dependencies
+
+[How to install Node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+
+Navigate to the directory you would like to use using the CLI and then clone this repository:
+
+```bash
+git clone git@github.com:jefid/jefid-react-porfolio.git
+```
+
+Create `.gitignore` to include the following:
+
+```bash
+node_modules
+.DS_Store
+package-lock.json
+```
+Open your IDE and use these commands to install _all_ the necessary packages:
+
+```bash
+npm init
+```
+
+`npm init` will create your `package.json` file.
 
 ## Available Scripts
 
@@ -27,44 +60,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Feedback
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Have something you'd like to add?<br>
+Feel free to contact me via email!<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="mailto:jquandt411@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+ </a>
