@@ -4,10 +4,10 @@ import { Container } from '@mui/material';
 
 // photos
 import battlebots from '../../assets/projects/battlebots.jpg';
-import hisscussions from '../../assets/projects/hisscussions';
-import mockUp from '../../assets/projects/mock-up.jpg';
+import hisscussions from '../../assets/projects/hisscussions.gif';
+import mockUp from '../../assets/projects/mock-up.gif';
 import runbuddy from '../../assets/projects/runbuddy.jpg';
-import noteTaker from '../../assets/projects/noteTaker.png';
+import noteTaker from '../../assets/projects/NoteTaker.png';
 import taskinator from '../../assets/projects/Taskinator.png';
 
 const Portfolio = () => {

@@ -1,12 +1,12 @@
 import React from 'react';
-import profilePic from '../assets/cover/profile.jpg';
+import profilePic from '../../assets/cover/profile.jpg';
 import './style.css';
 import { Container } from '@mui/material';
 
 function About() {
   return (
     <div>
-      <h1>i'm wolf!</h1>
+      <h1>I'm Jefid!</h1>
 
       <Container id='project-card'>
         <h3>My name is Jefferson Quandt</h3>
