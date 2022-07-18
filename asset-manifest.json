@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jefid-react-portfolio/static/css/main.131013d4.css",
+    "main.js": "/jefid-react-portfolio/static/js/main.ce232f84.js",
+    "static/js/787.33940265.chunk.js": "/jefid-react-portfolio/static/js/787.33940265.chunk.js",
+    "static/media/mock-up.gif": "/jefid-react-portfolio/static/media/mock-up.a8e684a2e24f66280d46.gif",
+    "static/media/hisscussions.gif": "/jefid-react-portfolio/static/media/hisscussions.eceb758383a3bb8cabae.gif",
+    "static/media/runbuddy.jpg": "/jefid-react-portfolio/static/media/runbuddy.12bb35005f1e69b16432.jpg",
+    "static/media/profile.jpg": "/jefid-react-portfolio/static/media/profile.ed2005ba245302b436ca.jpg",
+    "static/media/Taskinator.png": "/jefid-react-portfolio/static/media/Taskinator.9d99868fee433fd238c2.png",
+    "static/media/battlebots.jpg": "/jefid-react-portfolio/static/media/battlebots.409bb1b727983c4433fd.jpg",
+    "static/media/Resume.doc": "/jefid-react-portfolio/static/media/Resume.943e9b772efc53815487.doc",
+    "static/media/NoteTaker.png": "/jefid-react-portfolio/static/media/NoteTaker.e7813ad8bc4cbda148ab.png",
+    "index.html": "/jefid-react-portfolio/index.html",
+    "main.131013d4.css.map": "/jefid-react-portfolio/static/css/main.131013d4.css.map",
+    "main.ce232f84.js.map": "/jefid-react-portfolio/static/js/main.ce232f84.js.map",
+    "787.33940265.chunk.js.map": "/jefid-react-portfolio/static/js/787.33940265.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.131013d4.css",
+    "static/js/main.ce232f84.js"
+  ]
+}
